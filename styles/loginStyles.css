@@ -1,0 +1,52 @@
+#try {
+  position: relative;
+}
+#bgloginmodal {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#loginmodal {
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: floralwhite;
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  position: relative;
+}
+
+#close {
+  margin: 0 0 0 0;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+#p1 {
+  margin: 0 0 0 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#p2 {
+  margin: 5px 0 0 0;
+}
